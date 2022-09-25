@@ -26,6 +26,7 @@
             padding: 8px;
             color: white;
             background-color: navy;
+            text-align: center;
 
         }
 
@@ -46,14 +47,16 @@
             padding: 15px;
             margin-left: 2px;
             background-color: #eefaf8;
+            /* border:2px solid red; */
         }
-        .locatetos{
+
+        .locatetos {
             display: inline;
         }
 
         input {
-            width: 355px;
-            height: 20px;
+            width: 95%;
+            height: 25px;
             color: black;
         }
 
@@ -66,11 +69,15 @@
             font-size: 16px;
             display: block;
             margin: auto;
+            width: 95%;
+            border-radius: 4px;
         }
-        button:hover{
-            background-color: blue;
+
+        button:hover {
+            background-color: navy;
         }
-        
+        span input{ padding-top: 20px;
+        }
     </style>
 </head>
 
@@ -81,34 +88,32 @@
             <div>
                 <h1>Sign Up</h1>
                 <div class="locate">
-                    <label for="">Username</label>
+                    <label for="">Username :</label>
                     <input type="text" required>
                 </div>
                 <div class="locate">
-                    <label for="">Password</label>
+                    <label for="">Password :</label>
                     <input type="password" required>
                 </div>
                 <div class="locate">
-                    <label for="">E-Mail</label>
+                    <label for="">E-Mail :</label>
                     <input type="email" required>
                 </div>
                 <div class="locate">
-                    <label for="">Phone No.</label>
+                    <label for="">Phone No. :</label>
                     <input type="number" required>
                 </div>
                 <div class="locate">
-                    <label for="">Date Of Birth:</label>
+                    <label for="">Date Of Birth :</label>
                     <input type="date" required>
                 </div>
                 <div class="locate">
-                    <label for="">Terms of Service:</label>
-                    <input type="checkbox" required>
-                </div>
-            
-                    <button>Submit</button>
-                
+                   <label for="">Terms of Service :</label><span><input type="checkbox"></span>
             </div>
-        </form>
+            <button>Submit</button>
+
+    </div>
+    </form>
     </div>
 
 </body>
