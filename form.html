@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Assignment5</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+
+        }
+
+        body {
+            background-color: #b5e7e1;
+        }
+
+        h1 {
+            padding: 8px;
+            color: white;
+            background-color: navy;
+
+        }
+
+        form {
+            border: 3px solid navy;
+            width: 410px;
+            height: 600px;
+            background-color: white;
+        }
+
+        label {
+            display: block;
+            font-size: 20px;
+            color: navy;
+        }
+
+        .locate {
+            padding: 15px;
+            margin-left: 2px;
+            background-color: #eefaf8;
+        }
+        .locatetos{
+            display: inline;
+        }
+
+        input {
+            width: 355px;
+            height: 20px;
+            color: black;
+        }
+
+        button {
+            background-color: #4CAF50;
+            border: 1px solid blue;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            font-size: 16px;
+            display: block;
+            margin: auto;
+        }
+        button:hover{
+            background-color: blue;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+
+            <div>
+                <h1>Sign Up</h1>
+                <div class="locate">
+                    <label for="">Username</label>
+                    <input type="text" required>
+                </div>
+                <div class="locate">
+                    <label for="">Password</label>
+                    <input type="password" required>
+                </div>
+                <div class="locate">
+                    <label for="">E-Mail</label>
+                    <input type="email" required>
+                </div>
+                <div class="locate">
+                    <label for="">Phone No.</label>
+                    <input type="number" required>
+                </div>
+                <div class="locate">
+                    <label for="">Date Of Birth:</label>
+                    <input type="date" required>
+                </div>
+                <div class="locate">
+                    <label for="">Terms of Service:</label>
+                    <input type="checkbox" required>
+                </div>
+            
+                    <button>Submit</button>
+                
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
